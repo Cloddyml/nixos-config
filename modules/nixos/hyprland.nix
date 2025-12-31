@@ -1,0 +1,24 @@
+{ inputs, config, lib, pkgs, ... }:
+
+{
+  programs.hyprland = {
+    enable = true;
+    xwayland.enable = true;
+  };
+
+  services.xserver = {
+    enable = true;
+    xkb = {
+      layout = "us,ru";
+      options = "grp:alt_shift_toggle";
+    };
+  };
+
+  xdg.portal = {
+    enable = true;
+    extraPortals = [
+      pkgs.xdg-desktop-portal-gtk
+      pkgs.xdg-desktop-portal-hyprland
+    ];
+  };
+}
