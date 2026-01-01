@@ -27,21 +27,40 @@
 	};
 
 	weather = {
-	  enable = false;
+	  enabled = false;
 	  unit = "metric";
 	  # key = ""; # API key
 	  location = "Saint Petersburg, Russian Federation";
 	};
       };
+      
+      menus.dashboard = {
+        directories.enabled = false;
+	stats.enable_gpu = false;
+	
+	shortcuts = {
+	  left = {
+	    #shortcut4 = {
+	      #icon = "";
+	      #command = "wofi --show drun";
+	      #tooltip = "Search Apps";
+	    #};
 
-      menus.dashboard.directories.enabled = false;
-      menus.dashboard.stats.enable_gpu = true;
-
-      theme.bar.transparent = true;
-
-      theme.font = {
-        name = "CaskaydiaCove NF";
-	size = "16px";
+	    #sortcut1 = {
+	      #icon = "";
+	      #command = "zen";
+	      #tooltip = "Zen Browser";
+	    #};
+	  };
+	};
+      };
+      
+      theme = {
+        bar.transparent = true;
+        font = {
+          name = "CaskaydiaCove NF";
+	  size = "16px";
+        };
       };
     };
   };

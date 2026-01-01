@@ -5,6 +5,8 @@
     ./hardware-configuration.nix
     ./disko-config.nix
 
+    ./excluded-pkgs.nix
+
     ../../modules/nixos/audio.nix
     ../../modules/nixos/bluetooth.nix
     ../../modules/nixos/boot.nix
