@@ -15,15 +15,23 @@
       };
 
       bar.launcher.autoDetectIcon = true;
+      bar.launcher.icon = "";
       bar.workspaces.show_icons = true;
+      bar.clock = {
+        format = "%H:%M";
+      };
 
       menus.clock = {
         time = {
 	  military = true;
-	  hideSeconds = true;
 	};
 
-	weather.unit = "metric";
+	weather = {
+	  enable = false;
+	  unit = "metric";
+	  # key = ""; # API key
+	  location = "Saint Petersburg";
+	};
       };
 
       menus.dashboard.directories.enabled = false;

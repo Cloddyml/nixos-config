@@ -13,7 +13,6 @@
       bluez
       #bluez-utils
       dart-sass
-      upower
       gvfs
       gtksourceview3
       libsoup_3

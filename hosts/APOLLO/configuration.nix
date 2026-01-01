@@ -12,6 +12,7 @@
     ../../modules/nixos/hyprland.nix
     ../../modules/nixos/kbinputs.nix
     ../../modules/nixos/networking.nix
+    ../../modules/nixos/power.nix
     ../../modules/nixos/sddm.nix
     ../../modules/nixos/timezone.nix
     ../../modules/nixos/users.nix
@@ -27,6 +28,8 @@
 
     wayland
     wayland-protocols
+
+    upower
 
     grim
     slurp
