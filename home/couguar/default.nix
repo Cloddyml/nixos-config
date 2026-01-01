@@ -2,6 +2,8 @@
 
 {
   imports = [
+    ./local-pkgs.nix
+
     ../../modules/home-manager/ags.nix
     ../../modules/home-manager/alacritty.nix
     ../../modules/home-manager/browsers.nix
