@@ -40,17 +40,17 @@
 	
 	shortcuts = {
 	  left = {
-	    #shortcut4 = {
-	      #icon = "";
-	      #command = "wofi --show drun";
-	      #tooltip = "Search Apps";
-	    #};
+	    shortcut4 = {
+	      icon = "";
+	      command = "wofi --show drun";
+	      tooltip = "Search Apps";
+	    };
 
-	    #sortcut1 = {
-	      #icon = "";
-	      #command = "zen";
-	      #tooltip = "Zen Browser";
-	    #};
+	    shortcut1 = {
+	      icon = "ℤ";
+	      command = "zen";
+	      tooltip = "Zen Browser";
+	    };
 	  };
 	};
       };
