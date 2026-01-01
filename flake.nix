@@ -19,6 +19,14 @@
     astal.url = "github:aylur/astal";
 
     ags.url = "github:aylur/ags";
+
+    zen-browser = {
+      url = "github:0xc000022070/zen-browser-flake";
+      inputs = {
+        nixpkgs.follows = "nixpkgs";
+	home-manager.follows = "home-manager";
+      };
+    };
   };
 
   outputs = { self, nixpkgs, home-manager, disko, hyprland, ... }@inputs:
@@ -45,6 +53,7 @@
 	      sharedModules = [
 	        inputs.hyprland.homeManagerModules.default
 		inputs.ags.homeManagerModules.default
+		inputs.zen-browser.homeModules.beta
 	      ];
 	    };
 	  }

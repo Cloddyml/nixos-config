@@ -23,6 +23,7 @@
     vim
     neovim
     tree
+    wl-clipboard
 
     wayland
     wayland-protocols

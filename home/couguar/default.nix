@@ -23,7 +23,7 @@
   home.sessionVariables = {
     TERMINAL = "alacritty";
     EDITOR = "nvim";
-    BROWSER = "firefox";
+    BROWSER = "zen";
   };
   
   xdg = {

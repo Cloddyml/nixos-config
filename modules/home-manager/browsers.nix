@@ -1,16 +1,11 @@
 { config, pkgs, ... }:
 
 {
-  programs.firefox = {
+  programs.zen-browser = {
     enable = true;
   };
 
   programs.chromium = {
     enable = true;
   };
-
-  home.packages = with pkgs; [
-    firefox
-    chromium
-  ];
 }

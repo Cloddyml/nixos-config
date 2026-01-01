@@ -4,7 +4,7 @@
   wayland.windowManager.hyprland.settings = {
     "$mod" = "SUPER";
     "$terminal" = "alacritty";
-    "$browser" = "firefox";
+    "$browser" = "zen";
 
     monitor = [
       ",prefferd,auto,1"
