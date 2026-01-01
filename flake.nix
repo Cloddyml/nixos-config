@@ -1,5 +1,5 @@
 {
-  description = "First NixOS configuration with flakes";
+  description = "My first NixOS configuration with flakes";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.11";
@@ -15,6 +15,10 @@
     };
 
     hyprland.url = "github:hyprwm/Hyprland";
+
+    astal.url = "github:aylur/astal";
+
+    ags.url = "github:aylur/ags";
   };
 
   outputs = { self, nixpkgs, home-manager, disko, hyprland, ... }@inputs:
@@ -40,6 +44,7 @@
 	      users.${username} = import ./home/${username};
 	      sharedModules = [
 	        inputs.hyprland.homeManagerModules.default
+		inputs.ags.homeManagerModules.default
 	      ];
 	    };
 	  }

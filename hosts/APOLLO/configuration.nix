@@ -21,6 +21,8 @@
     curl
     git
     vim
+    neovim
+    tree
 
     wayland
     wayland-protocols

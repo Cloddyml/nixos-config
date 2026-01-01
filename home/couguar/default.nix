@@ -2,11 +2,13 @@
 
 {
   imports = [
+    ../../modules/home-manager/ags.nix
     ../../modules/home-manager/alacritty.nix
     ../../modules/home-manager/browsers.nix
     ../../modules/home-manager/fastfetch.nix
     ../../modules/home-manager/git.nix
     ../../modules/home-manager/hyprland.nix
+    ../../modules/home-manager/hyprpanel.nix
     ../../modules/home-manager/keybinds.nix
     ../../modules/home-manager/settings.nix
     ../../modules/home-manager/zsh.nix
