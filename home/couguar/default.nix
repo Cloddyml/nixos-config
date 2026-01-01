@@ -32,11 +32,11 @@
     userDirs = {
       enable = true;
       createDirectories = true;
-      documents = "${config.home.homeDirectory}/Documents";
-      download = "${config.home.homeDirectory}/Downloads";
-      pictures = "${config.home.homeDirectory}/Pictures";
-      videos = "${config.home.homeDirectory}/Videos";
-      desktop = "${config.home.homeDirectory}/Desktop";
+      documents = "/home/${username}/Documents";
+      download = "/home/${username}/Downloads";
+      pictures = "/home/${username}/Pictures";
+      videos = "/home/${username}/Videos";
+      desktop = "/home/${username}/Desktop";
     };
   };
 

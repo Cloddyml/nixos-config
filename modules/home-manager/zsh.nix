@@ -7,9 +7,11 @@
     autosuggestion.enable = true;
     syntaxHighlighting.enable = true;
 
+    dotDir = "${config.home.homeDirectory}/.config/zsh";
+
     history = {
       size = 100;
-      path = "${config.xdg.dataHome}/zsh/history";
+      path = "${config.home.homeDirectory}/.local/share/zsh/history";
     };
   };
 
