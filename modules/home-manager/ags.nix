@@ -8,7 +8,6 @@
 
     extraPackages = with pkgs; [
       inputs.astal.packages.${pkgs.system}.battery
-      fzf
       libgtop
       bluez
       #bluez-utils

@@ -5,6 +5,7 @@
     "$mod" = "SUPER";
     "$terminal" = "alacritty";
     "$browser" = "zen";
+    "$launcher" = "wofi";
 
     monitor = [
       ",prefferd,auto,1"

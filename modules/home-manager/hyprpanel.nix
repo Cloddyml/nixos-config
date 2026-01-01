@@ -30,7 +30,7 @@
 	  enable = false;
 	  unit = "metric";
 	  # key = ""; # API key
-	  location = "Saint Petersburg";
+	  location = "Saint Petersburg, Russian Federation";
 	};
       };
 

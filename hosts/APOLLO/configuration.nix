@@ -25,6 +25,7 @@
     neovim
     tree
     wl-clipboard
+    fzf
 
     wayland
     wayland-protocols
