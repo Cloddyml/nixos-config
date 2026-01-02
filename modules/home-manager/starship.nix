@@ -5,7 +5,7 @@
     enable = true;
     enableZshIntegration = true;
     settings = {
-      add_newline = true;
+      add_newline = false;
       hostname = {
         ssh_only = false;
 	format = "[$ssh_symbol$hostname]($style) ";
@@ -13,8 +13,8 @@
       };
       
       character = {
-        success_symbol = "[ & ](bold green)";
-	error_symbol = "[ & ](bold red)";
+        success_symbol = "[ → ](bold green)";
+	error_symbol = "[ → ](bold red)";
       };
       username = {
         show_always = true;
@@ -43,6 +43,19 @@
         commit_hash_length = 7;
         format = "[\\($hash$tag\\)]($style) ";
         style = "bold green";
+      };
+
+      python = {
+        symbol = " ";
+	format = "via [\${symbol}\${pyenv_prefix}(\${version} )(\\($virtualenv\\) )]($style)";
+	style = "yellow bold";
+	pyenv_version_name = false;
+      };
+
+      rust = {
+        symbol = " ";
+	format = "via [\${symbol}(\${version} )]($style)";
+	style = "bold green";
       };
     };
   };
