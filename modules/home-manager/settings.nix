@@ -6,6 +6,7 @@
     "$terminal" = "alacritty";
     "$browser" = "zen";
     "$launcher" = "wofi";
+    "$guifileman" = "dolphin";
 
     monitor = [
       ",prefferd,auto,1"
