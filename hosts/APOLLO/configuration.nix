@@ -11,6 +11,7 @@
     ../../modules/nixos/bluetooth.nix
     ../../modules/nixos/boot.nix
     ../../modules/nixos/fonts.nix
+    ../../modules/nixos/gui-filemanager.nix
     ../../modules/nixos/hyprland.nix
     ../../modules/nixos/kbinputs.nix
     ../../modules/nixos/networking.nix
@@ -40,6 +41,11 @@
     networkmanagerapplet
 
     alsa-utils
+    
+    # For gui filemanager
+    kdePackages.dolphin
+    kdePackages.kio
+    kdePackages.plasma-integration
 
     xdg-utils
     xdg-desktop-portal

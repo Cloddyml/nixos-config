@@ -5,5 +5,7 @@
     throne
     telegram-desktop
     cmatrix
+    mpv
+    #ueberzugpp # for yazi
   ];
 }
