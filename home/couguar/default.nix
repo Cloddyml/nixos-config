@@ -12,6 +12,7 @@
     ../../modules/home-manager/hyprland.nix
     ../../modules/home-manager/hyprpanel.nix
     ../../modules/home-manager/keybinds.nix
+    ../../modules/home-manager/mpv.nix
     ../../modules/home-manager/settings.nix
     ../../modules/home-manager/starship.nix
     ../../modules/home-manager/wofi.nix
