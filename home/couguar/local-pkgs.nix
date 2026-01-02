@@ -7,5 +7,6 @@
     cmatrix
     mpv
     #ueberzugpp # for yazi
+    starship
   ];
 }

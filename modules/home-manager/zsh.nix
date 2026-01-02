@@ -10,7 +10,7 @@
     dotDir = "${config.home.homeDirectory}/.config/zsh";
 
     history = {
-      size = 100;
+      size = 1000;
       path = "${config.home.homeDirectory}/.local/share/zsh/history";
     };
   };
