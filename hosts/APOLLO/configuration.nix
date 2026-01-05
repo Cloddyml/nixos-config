@@ -18,6 +18,7 @@
     ../../modules/nixos/power.nix
     ../../modules/nixos/sddm.nix
     ../../modules/nixos/timezone.nix
+    ../../modules/nixos/tui-filemanager.nix
     ../../modules/nixos/users.nix
   ];
 
@@ -46,6 +47,9 @@
     kdePackages.dolphin
     kdePackages.kio
     kdePackages.plasma-integration
+
+    # For tui filemanager
+    yazi
 
     xdg-utils
     xdg-desktop-portal
