@@ -16,6 +16,7 @@
     ../../modules/nixos/kbinputs.nix
     ../../modules/nixos/networking.nix
     ../../modules/nixos/power.nix
+    ../../modules/nixos/qbittorrent.nix
     ../../modules/nixos/sddm.nix
     ../../modules/nixos/timezone.nix
     ../../modules/nixos/tui-filemanager.nix
@@ -50,6 +51,8 @@
 
     # For tui filemanager
     yazi
+
+    qbittorrent
 
     xdg-utils
     xdg-desktop-portal
