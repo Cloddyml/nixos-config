@@ -10,5 +10,8 @@
     #ueberzugpp # for yazi
     starship
     vscode
+
+    macchina
+    fastfetch
   ];
 }

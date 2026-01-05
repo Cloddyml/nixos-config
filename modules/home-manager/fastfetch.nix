@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ config, ... }:
 
 {
   programs.fastfetch = {
@@ -38,8 +38,4 @@
       ];
     };
   };
-
-  home.packages = with pkgs; [
-    fastfetch
-  ];
 }
