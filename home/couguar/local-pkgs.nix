@@ -8,5 +8,6 @@
     mpv
     #ueberzugpp # for yazi
     starship
+    vscode
   ];
 }
