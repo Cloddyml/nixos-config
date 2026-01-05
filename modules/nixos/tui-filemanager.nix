@@ -15,7 +15,7 @@
         linemode = "none";
         show_hidden = true;
         show_symlink = true;
-      };};
+      };
     };
   };
 }
