@@ -6,6 +6,7 @@
     telegram-desktop
     cmatrix
     mpv
+    vlc
     #ueberzugpp # for yazi
     starship
     vscode
