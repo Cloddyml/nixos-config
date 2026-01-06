@@ -16,6 +16,8 @@
 
       font-awesome
       material-design-icons
+
+      # mscorefonts
     ];
 
     fontconfig = {

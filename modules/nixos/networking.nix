@@ -1,7 +1,8 @@
-{ config, lib, pkgs, ... }:
+{ config, lib, pkgs, hostname, ... }:
 
 {
   networking = {
+    hostName = hostname;
     networkmanager = {
       enable = true;
       wifi.powersave = false;
