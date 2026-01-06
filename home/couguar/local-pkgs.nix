@@ -14,5 +14,7 @@
     fastfetch
 
     vesktop # Discord
+
+    pywal # Color-scheme
   ];
 }
