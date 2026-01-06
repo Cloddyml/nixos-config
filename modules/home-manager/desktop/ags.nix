@@ -7,7 +7,7 @@
     configDir = null;
 
     extraPackages = with pkgs; [
-      inputs.astal.packages.${pkgs.system}.battery
+      inputs.astal.packages.${pkgs.stdenv.hostPlatform.system}.battery
       libgtop
       bluez
       #bluez-utils
