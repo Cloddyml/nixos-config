@@ -51,6 +51,10 @@
 	      command = "zen";
 	      tooltip = "Zen Browser";
 	    };
+
+		shortcut3 = {
+			command = "vesktop";
+		};
 	  };
 	};
       };
