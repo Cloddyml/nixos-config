@@ -12,5 +12,7 @@
 
     macchina
     fastfetch
+
+    vesktop # Discord
   ];
 }

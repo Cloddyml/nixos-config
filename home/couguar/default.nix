@@ -15,6 +15,7 @@
     ../../modules/home-manager/mpv.nix
     ../../modules/home-manager/settings.nix
     ../../modules/home-manager/starship.nix
+    ../../modules/home-manager/vesktop.nix
     ../../modules/home-manager/vscode.nix
     ../../modules/home-manager/wofi.nix
     ../../modules/home-manager/zsh.nix
