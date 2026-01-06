@@ -28,5 +28,9 @@
         tap-to-click = true;
       };
     };
+
+    misc = {
+      force_default_wallpaper = 0;
+    };
   };
 }
