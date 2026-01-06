@@ -8,4 +8,6 @@
     };
     firewall.enable = true;
   };
+
+  boot.kernelModules = [ "tun" ];
 }
