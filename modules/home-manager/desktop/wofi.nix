@@ -1,5 +1,3 @@
-{ config, pkgs, ... }:
-
 {
   programs.wofi = {
     enable = true;
@@ -21,8 +19,4 @@
       gtk_dark = true;
     };
   };
-
-  home.packages = with pkgs; [
-    wofi
-  ];
 }

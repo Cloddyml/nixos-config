@@ -1,4 +1,4 @@
-{ config, pkgs, lib, ... }:
+{ config, ... }:
 
 {
   programs.zsh = {
@@ -24,8 +24,4 @@
       path = "${config.home.homeDirectory}/.local/share/zsh/history";
     };
   };
-
-  home.packages = with pkgs; [
-    zsh
-  ];
 }

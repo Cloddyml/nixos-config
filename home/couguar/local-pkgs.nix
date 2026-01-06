@@ -3,10 +3,16 @@
 {
   home.packages = with pkgs; [
     telegram-desktop
+    
     cmatrix
+    
     mpv
     vlc
+
+    alacritty
     starship
+    zsh
+    
     vscode
 
     macchina
@@ -20,5 +26,7 @@
     obsidian
 
     libreoffice-qt-fresh
+
+    wofi
   ];
 }

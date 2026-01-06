@@ -1,4 +1,4 @@
-{ config, lib, pkgs, ... }:
+{ lib, ... }:
 
 {
   programs.alacritty = {
@@ -14,8 +14,4 @@
       };
     };
   };
-
-  home.packages = with pkgs; [
-    alacritty
-  ];
 }
