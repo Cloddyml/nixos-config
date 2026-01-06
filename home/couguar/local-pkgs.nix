@@ -18,5 +18,7 @@
     pywal # Color-scheme
 
     obsidian
+
+    libreoffice-qt-fresh
   ];
 }
