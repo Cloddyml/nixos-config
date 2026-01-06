@@ -7,6 +7,16 @@
     autosuggestion.enable = true;
     syntaxHighlighting.enable = true;
 
+    shellAliases = {
+      cat = "bat";
+
+      ga = "git add";
+      gc = "git commit";
+      gp = "git push";
+      gs = "git status";
+      gd = "git diff";
+    };
+
     dotDir = "${config.home.homeDirectory}/.config/zsh";
 
     history = {

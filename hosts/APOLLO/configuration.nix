@@ -77,6 +77,8 @@
     nodePackages.npm
     # =====
 
+    bat # Alt for cat cmd
+
   ];
 
   networking.hostName = hostname;
