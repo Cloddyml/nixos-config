@@ -2,7 +2,7 @@
 
 {
   imports = [
-    ./local-pkgs.nix
+    ./home-pkgs.nix
 
     ../../modules/home-manager/browsers.nix
     ../../modules/home-manager/fastfetch.nix
