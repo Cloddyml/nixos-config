@@ -47,21 +47,21 @@
           disko.nixosModules.disko
           ./hosts/${hostname}/configuration.nix
 
-	  home-manager.nixosModules.home-manager
-	  {
-	    home-manager = {
-	      useGlobalPkgs = true;
-	      useUserPackages = true;
-	      backupFileExtension = "backup";
-	      extraSpecialArgs = { inherit inputs hostname username homeStateVersion; };
-	      users.${username} = import ./home/${username};
-	      sharedModules = [
-	        inputs.hyprland.homeManagerModules.default
-		inputs.ags.homeManagerModules.default
-		inputs.zen-browser.homeModules.beta
-	      ];
-	    };
-	  }
+          home-manager.nixosModules.home-manager
+          {
+            home-manager = {
+              useGlobalPkgs = true;
+              useUserPackages = true;
+              backupFileExtension = "backup";
+              extraSpecialArgs = { inherit inputs hostname username homeStateVersion; };
+              users.${username} = import ./home/${username};
+              sharedModules = [
+                inputs.hyprland.homeManagerModules.default
+                inputs.ags.homeManagerModules.default
+                inputs.zen-browser.homeModules.beta
+              ];
+            };
+          }
         ] ++ modules;
       };
     in

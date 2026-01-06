@@ -9,7 +9,6 @@
     ../../modules/nixos/audio.nix
     ../../modules/nixos/bluetooth.nix
     ../../modules/nixos/boot.nix
-    #../../modules/nixos/clash-verge-rev.nix
     ../../modules/nixos/gaming.nix
     ../../modules/nixos/gui-filemanager.nix
     ../../modules/nixos/kbinputs.nix
