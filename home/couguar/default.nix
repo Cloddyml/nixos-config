@@ -12,12 +12,12 @@
     ../../modules/home-manager/vscode.nix
 
     # Desktop
+    ../../modules/home-manager/desktop/hyprland/hyprland.nix
+    ../../modules/home-manager/desktop/hyprland/keybinds.nix
+    ../../modules/home-manager/desktop/hyprland/settings.nix
     ../../modules/home-manager/desktop/ags.nix
-    ../../modules/home-manager/desktop/hyprland.nix
     ../../modules/home-manager/desktop/hyprpanel.nix
-    ../../modules/home-manager/desktop/keybinds.nix
     ../../modules/home-manager/desktop/pywal.nix
-    ../../modules/home-manager/desktop/settings.nix
     ../../modules/home-manager/desktop/wofi.nix
 
     # Shell
