@@ -11,6 +11,7 @@
     ../../modules/nixos/bluetooth.nix
     ../../modules/nixos/boot.nix
     ../../modules/nixos/fonts.nix
+    ../../modules/nixos/gaming.nix
     ../../modules/nixos/gui-filemanager.nix
     ../../modules/nixos/hyprland.nix
     ../../modules/nixos/kbinputs.nix
@@ -53,6 +54,9 @@
     yazi
 
     qbittorrent
+
+    steam
+    gamemode
 
     xdg-utils
     xdg-desktop-portal
