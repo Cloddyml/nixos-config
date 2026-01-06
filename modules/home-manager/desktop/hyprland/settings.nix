@@ -5,6 +5,7 @@
     "$browser" = "zen";
     "$launcher" = "wofi";
     "$guifileman" = "dolphin";
+    "$tuifileman" = "yazi";
 
     monitor = [
       ",prefferd,auto,1"
@@ -23,8 +24,8 @@
 
       touchpad = {
         natural_scroll = true;
-	disable_while_typing = true;
-	tap-to-click = true;
+        disable_while_typing = true;
+        tap-to-click = true;
       };
     };
   };
