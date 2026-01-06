@@ -16,5 +16,7 @@
     vesktop # Discord
 
     pywal # Color-scheme
+
+    obsidian
   ];
 }
