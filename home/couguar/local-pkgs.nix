@@ -16,6 +16,7 @@
     vesktop # Discord
 
     pywal # Color-scheme
+    waypaper # Change Wallpapers
 
     obsidian
 

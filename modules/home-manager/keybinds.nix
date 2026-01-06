@@ -7,6 +7,7 @@
       "$mod, B, exec, $browser"
       "$mod, R, exec, $launcher"
       "$mod, E, exec, $guifileman"
+      "$mod, W, exec, waypaper"
 
       "$mod, C, killactive"
       "$mod, M, exit"
