@@ -22,6 +22,8 @@
     ../../modules/nixos/timezone.nix
     ../../modules/nixos/tui-filemanager.nix
     ../../modules/nixos/users.nix
+
+    ../../modules/nixos/development/npm.nix
   ];
 
   environment.systemPackages = with pkgs; [
@@ -64,7 +66,17 @@
     xdg-desktop-portal-hyprland
 
     # For development
+    # =====
     uv
+    rustc
+    cargo
+    rustfmt
+    rust-analyzer
+    clippy
+    nodejs
+    nodePackages.npm
+    # =====
+
   ];
 
   networking.hostName = hostname;
