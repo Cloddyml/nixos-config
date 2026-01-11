@@ -28,5 +28,7 @@
     libreoffice-qt-fresh
 
     wofi
+
+    prismlauncher # Minecraft launcher
   ];
 }
