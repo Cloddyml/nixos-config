@@ -30,5 +30,7 @@
     wofi
 
     prismlauncher # Minecraft launcher
+
+    dbeaver-bin # Universal SQL Client
   ];
 }
