@@ -7,6 +7,7 @@
   environment.systemPackages = with pkgs; [
     curl
     git
+    unzip
     vim
     neovim
     tree
