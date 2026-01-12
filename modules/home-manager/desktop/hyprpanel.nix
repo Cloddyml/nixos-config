@@ -38,9 +38,7 @@
 				shortcuts = {
 					left = {
 						shortcut4 = {
-							icon = "";
 							command = "wofi --show drun";
-							tooltip = "Search Apps";
 						};
 
 						shortcut1 = {

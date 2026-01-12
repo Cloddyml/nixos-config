@@ -9,6 +9,7 @@
 
     initContent = ''
       fastfetch
+      eval "$(uv generate-shell-completion zsh)"
     '';
 
     shellAliases = {
