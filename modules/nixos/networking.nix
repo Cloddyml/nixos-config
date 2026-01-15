@@ -7,7 +7,10 @@
       enable = true;
       wifi.powersave = false;
     };
-    firewall.enable = true;
+    firewall = {
+      enable = true;
+      allowedTCPPorts = [ 22 ];
+    };
   };
 
   boot.kernelModules = [ "tun" ];

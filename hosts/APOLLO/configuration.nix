@@ -15,6 +15,7 @@
     ../../modules/nixos/networking.nix
     ../../modules/nixos/power.nix
     ../../modules/nixos/qbittorrent.nix
+    ../../modules/nixos/ssh.nix
     ../../modules/nixos/timezone.nix
     ../../modules/nixos/tui-filemanager.nix
     ../../modules/nixos/users.nix

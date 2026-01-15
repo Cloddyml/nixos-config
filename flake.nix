@@ -14,6 +14,11 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
+    agenix = {
+      url = "github:ryantm/agenix";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
     hyprland.url = "github:hyprwm/Hyprland";
 
     astal.url = "github:aylur/astal";
@@ -34,7 +39,7 @@
     };
   };
 
-  outputs = { self, nixpkgs, home-manager, disko, hyprland, ... }@inputs:
+  outputs = { self, nixpkgs, home-manager, disko, hyprland, agenix, ... }@inputs:
     let
       system = "x86_64-linux";
       homeStateVersion = "25.11";
@@ -46,6 +51,7 @@
         modules = [
           disko.nixosModules.disko
           ./hosts/${hostname}/configuration.nix
+          agenix.nixosModules.default
 
           home-manager.nixosModules.home-manager
           {

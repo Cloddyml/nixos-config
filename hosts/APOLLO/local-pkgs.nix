@@ -1,10 +1,13 @@
-{ pkgs, homeStateVersion, ... }:
+{ pkgs, homeStateVersion, inputs, ... }:
 
 {
   system.stateVersion = homeStateVersion;
   nixpkgs.config.allowUnfree = true;
   
   environment.systemPackages = with pkgs; [
+    # Agenix
+    inputs.agenix.packages.${system}.default
+
     curl
     git
     unzip

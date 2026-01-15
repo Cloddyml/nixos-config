@@ -10,6 +10,12 @@
       init = {
         defaultBranch = "main";
       };
+
+      url."ssh://git@github.com/".insteadOf = "https://github.com/";
+
+      core = {
+        sshCommand = "ssh -i ~/.ssh/github";
+      };
     };
   };
 }
