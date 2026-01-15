@@ -16,6 +16,7 @@
     ../../modules/home-manager/desktop/hyprland/keybinds.nix
     ../../modules/home-manager/desktop/hyprland/settings.nix
     ../../modules/home-manager/desktop/ags.nix
+    ../../modules/home-manager/desktop/cursor.nix
     ../../modules/home-manager/desktop/hyprpanel.nix
     ../../modules/home-manager/desktop/pywal.nix
     ../../modules/home-manager/desktop/wofi.nix
