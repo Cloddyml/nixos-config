@@ -50,8 +50,8 @@
         specialArgs = { inherit inputs hostname username homeStateVersion; };
         modules = [
           disko.nixosModules.disko
-          ./hosts/${hostname}/configuration.nix
           agenix.nixosModules.default
+          ./hosts/${hostname}/configuration.nix
 
           home-manager.nixosModules.home-manager
           {

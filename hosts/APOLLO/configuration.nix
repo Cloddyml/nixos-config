@@ -13,6 +13,7 @@
     ../../modules/nixos/gui-filemanager.nix
     ../../modules/nixos/kbinputs.nix
     ../../modules/nixos/networking.nix
+    ../../modules/nixos/postgresql.nix
     ../../modules/nixos/power.nix
     ../../modules/nixos/qbittorrent.nix
     ../../modules/nixos/ssh.nix

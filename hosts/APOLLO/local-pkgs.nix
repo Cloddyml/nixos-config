@@ -6,7 +6,7 @@
   
   environment.systemPackages = with pkgs; [
     # Agenix
-    inputs.agenix.packages.${system}.default
+    inputs.agenix.packages.${stdenv.hostPlatform.system}.default
 
     curl
     git
