@@ -22,4 +22,6 @@
       pkgs.xdg-desktop-portal-hyprland
     ];
   };
+
+  security.pam.services.hyprlock = {};
 }

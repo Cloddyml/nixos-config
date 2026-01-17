@@ -12,7 +12,9 @@
     ../../modules/home-manager/vscode.nix
 
     # Desktop
+    ../../modules/home-manager/desktop/hyprland/hypridle.nix
     ../../modules/home-manager/desktop/hyprland/hyprland.nix
+    ../../modules/home-manager/desktop/hyprland/hyprlock.nix
     ../../modules/home-manager/desktop/hyprland/keybinds.nix
     ../../modules/home-manager/desktop/hyprland/settings.nix
     ../../modules/home-manager/desktop/ags.nix

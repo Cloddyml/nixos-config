@@ -6,6 +6,7 @@
       "$mod, R, exec, $launcher"
       "$mod, E, exec, $guifileman"
       "$mod, W, exec, waypaper"
+      "$mod, L, exec, hyprlock"
 
       "$mod, C, killactive"
       "$mod, M, exit"

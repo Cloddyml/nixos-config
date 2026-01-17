@@ -22,6 +22,8 @@
 
     upower
 
+    brightnessctl
+
     grim
     slurp
 
@@ -60,5 +62,9 @@
     # =====
 
     bat # Alt for cat cmd
+
+    # Hyprland ecosystem
+    hyprlock
+    hypridle
   ];
 }

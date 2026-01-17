@@ -11,6 +11,10 @@
       ",prefferd,auto,1"
     ];
 
+    exec-once = [
+      "hypridle"
+    ];
+
     env = [
       "HYPRCURSOR_THEME,Bibata-Modern-Classic"
       "HYPRCURSOR_SIZE,24"
