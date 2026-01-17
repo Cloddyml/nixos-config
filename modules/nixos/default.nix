@@ -1,0 +1,21 @@
+{
+  imports = [
+    ./desktop
+    ./development
+    ./audio.nix
+    ./bluetooth.nix
+    ./boot.nix
+    ./gaming.nix
+    ./gui-filemanager.nix
+    ./kbinputs.nix
+    ./networking.nix
+    ./postgresql.nix
+    ./power.nix
+    ./qbittorrent.nix
+    ./ssh.nix
+    ./throne.nix
+    ./timezone.nix
+    ./tui-filemanager.nix
+    ./users.nix
+  ];
+}
