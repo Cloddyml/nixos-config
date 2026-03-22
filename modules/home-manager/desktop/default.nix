@@ -1,10 +1,7 @@
 {
   imports = [
-    ./hyprland
-    ./ags.nix
+    ./niri
     ./cursor.nix
-    ./hyprpanel.nix
-    ./pywal.nix
-    ./wofi.nix
+    ./noctalia.nix
   ];
 }

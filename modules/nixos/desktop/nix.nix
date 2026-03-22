@@ -1,11 +1,7 @@
 { pkgs, ... }:
 
 {
-  programs.hyprland = {
-    enable = true;
-    withUWSM = true;
-    xwayland.enable = true;
-  };
+  programs.niri.enable = true;
 
   services.xserver = {
     enable = true;
@@ -19,9 +15,6 @@
     enable = true;
     extraPortals = [
       pkgs.xdg-desktop-portal-gtk
-      pkgs.xdg-desktop-portal-hyprland
     ];
   };
-
-  security.pam.services.hyprlock = {};
 }

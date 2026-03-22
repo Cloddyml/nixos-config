@@ -21,14 +21,9 @@
 
     vesktop # Discord
 
-    # pywal # Color-scheme
-    waypaper # Change Wallpapers
-
     obsidian
 
     libreoffice-qt-fresh
-
-    wofi
 
     prismlauncher # Minecraft launcher
 

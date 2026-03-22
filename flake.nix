@@ -2,7 +2,8 @@
   description = "My first NixOS configuration with flakes";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.11";
+    # nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.11";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
 
     disko = {
       url = "github:nix-community/disko";
@@ -10,7 +11,7 @@
     };
 
     home-manager = {
-      url = "github:nix-community/home-manager/release-25.11";
+      url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
@@ -19,14 +20,16 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    hyprland.url = "github:hyprwm/Hyprland";
+    niri.url = "github:sodiboo/niri-flake";
+    
+    noctalia = {
+      url = "github:noctalia-dev/noctalia-shell";
+      inputs.nixpkgs.follows = "nixpkgs";
+      inputs.noctalia-qs.follows = "noctalia-qs";
+    };
 
-    astal.url = "github:aylur/astal";
-
-    ags.url = "github:aylur/ags";
-
-    hyprpanel = {
-      url = "github:Jas-SinghFSU/HyprPanel";
+    noctalia-qs = {
+      url = "github:noctalia-dev/noctalia-qs";
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
@@ -39,7 +42,7 @@
     };
   };
 
-  outputs = { self, nixpkgs, home-manager, disko, hyprland, agenix, ... }@inputs:
+  outputs = { self, nixpkgs, home-manager, disko, niri, agenix, ... }@inputs:
     let
       system = "x86_64-linux";
       homeStateVersion = "25.11";
@@ -51,6 +54,8 @@
         modules = [
           disko.nixosModules.disko
           agenix.nixosModules.default
+          niri.nixosModules.niri
+
           ./hosts/${hostname}/configuration.nix
 
           home-manager.nixosModules.home-manager
@@ -62,8 +67,7 @@
               extraSpecialArgs = { inherit inputs hostname username homeStateVersion; };
               users.${username} = import ./home/${username};
               sharedModules = [
-                inputs.hyprland.homeManagerModules.default
-                inputs.ags.homeManagerModules.default
+                inputs.noctalia.homeModules.default
                 inputs.zen-browser.homeModules.beta
               ];
             };

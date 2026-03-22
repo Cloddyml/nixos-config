@@ -47,7 +47,6 @@
     xdg-utils
     xdg-desktop-portal
     xdg-desktop-portal-gtk
-    xdg-desktop-portal-hyprland
 
     # For development
     # =====
@@ -63,8 +62,7 @@
 
     bat # Alt for cat cmd
 
-    # Hyprland ecosystem
-    hyprlock
-    hypridle
+    # Niri ecosystem
+    xwayland-satellite
   ];
 }

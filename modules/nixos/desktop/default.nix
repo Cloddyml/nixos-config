@@ -1,7 +1,7 @@
 {
   imports = [
     ./fonts.nix
-    ./hyprland.nix
+    ./nix.nix
     ./sddm.nix
   ];
 }
