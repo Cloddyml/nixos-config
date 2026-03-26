@@ -1,7 +1,7 @@
-{ pkgs, homeStateVersion, inputs, ... }:
+{ pkgs, inputs, ... }:
 
 {
-  system.stateVersion = homeStateVersion;
+  system.stateVersion = "25.11";
   nixpkgs.config.allowUnfree = true;
   
   environment.systemPackages = with pkgs; [
@@ -11,25 +11,18 @@
     curl
     git
     unzip
-    vim
     neovim
     tree
     wl-clipboard
     fzf
 
-    wayland
-    wayland-protocols
-
     upower
-
     brightnessctl
 
     grim
     slurp
 
     networkmanagerapplet
-
-    alsa-utils
     
     # For gui filemanager
     kdePackages.dolphin
@@ -45,8 +38,6 @@
     gamemode
 
     xdg-utils
-    xdg-desktop-portal
-    xdg-desktop-portal-gtk
 
     # For development
     # =====

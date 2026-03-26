@@ -5,7 +5,7 @@
     ./browsers.nix
     ./fastfetch.nix
     ./git.nix
-    # ./mpv.nix
+    ./mpv.nix
     ./vesktop.nix
     ./vscode.nix
   ];

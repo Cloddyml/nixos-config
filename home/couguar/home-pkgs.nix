@@ -7,18 +7,6 @@
     yandex-music
     
     cmatrix
-    
-    mpv
-    vlc
-
-    alacritty
-    starship
-    zsh
-    
-    vscode
-
-    macchina
-    fastfetch
 
     vesktop # Discord
 
