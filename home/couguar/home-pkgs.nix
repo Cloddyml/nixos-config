@@ -4,6 +4,7 @@
   home.packages = with pkgs; [
     telegram-desktop
     bitwarden-desktop
+    yandex-music
     
     cmatrix
     
