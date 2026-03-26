@@ -34,9 +34,6 @@
 
     qbittorrent
 
-    steam
-    gamemode
-
     xdg-utils
 
     # For development

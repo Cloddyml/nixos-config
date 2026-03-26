@@ -1,7 +1,7 @@
 {
   imports = [
     ./fonts.nix
-    ./nix.nix
+    ./niri.nix
     ./sddm.nix
   ];
 }

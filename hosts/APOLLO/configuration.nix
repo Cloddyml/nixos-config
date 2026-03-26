@@ -2,6 +2,7 @@
   imports = [
     ./hardware-configuration.nix
     ./disko-config.nix
+    ./boot.nix
 
     ./excluded-pkgs.nix
     ./local-pkgs.nix
