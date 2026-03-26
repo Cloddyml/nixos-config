@@ -1,7 +1,7 @@
 ''
   binds {
     Mod+Q { spawn "alacritty"; }
-    Mod+B { spawn "zen"; }
+    Mod+B { spawn "zen-beta"; }
     Mod+E { spawn "dolphin"; }
 
     Mod+R { spawn "noctalia-shell" "ipc" "call" "launcher" "toggle"; }
