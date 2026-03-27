@@ -33,10 +33,10 @@
       "application/x-yaml"        = "code.desktop";
 
       # Archives
-      "application/zip"             = "ark.desktop";
-      "application/x-tar"           = "ark.desktop";
-      "application/gzip"            = "ark.desktop";
-      "application/x-7z-compressed" = "ark.desktop";
+      "application/zip"             = "org.gnome.FileRoller.desktop";
+      "application/x-tar"           = "org.gnome.FileRoller.desktop";
+      "application/gzip"            = "org.gnome.FileRoller.desktop";
+      "application/x-7z-compressed" = "org.gnome.FileRoller.desktop";
 
       # Browser
       "text/html"              = "zen-beta.desktop";

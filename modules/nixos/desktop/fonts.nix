@@ -12,6 +12,8 @@
       nerd-fonts.iosevka
       nerd-fonts.caskaydia-cove
 
+      papirus-icon-theme
+
       inter
       roboto
 

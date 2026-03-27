@@ -10,7 +10,7 @@
 
     curl
     git
-    kdePackages.ark
+    file-roller
     p7zip
     unrar
     zip 
