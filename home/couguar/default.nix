@@ -17,6 +17,7 @@
     TERMINAL = "alacritty";
     EDITOR = "nvim";
     BROWSER = "zen-beta";
+    NIXOS_OZONE_WL = "1";
   };
   
   xdg = {
@@ -38,23 +39,7 @@
     "Pictures/Screenshots/.keep".text = "";
     "Pictures/Wallpapers/.keep".text = "";
     "Documents/Projects/.keep".text = "";
-    ".local/share/applications/.keep".text = "";
-    ".local/share/kio/servicemenus/vscode-open-folder.desktop".text = ''
-      [Desktop Entry]
-      Type=Service
-      MimeType=inode/directory;
-      Actions=openInVSCode
-
-      [Desktop Action openInVSCode]
-      Name=Open in VS Code
-      Icon=code
-      Exec=code %f
-    '';
   };
-  
-  home.activation.rebuildKdeCache = lib.hm.dag.entryAfter ["writeBoundary"] ''
-    ${pkgs.kdePackages.kservice}/bin/kbuildsycoca6 --noincremental 2>/dev/null || true
-  '';
 
   programs.home-manager.enable = true;
 }

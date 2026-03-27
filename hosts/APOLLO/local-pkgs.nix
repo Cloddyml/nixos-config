@@ -31,9 +31,7 @@
     networkmanagerapplet
     
     # For gui filemanager
-    kdePackages.dolphin
-    kdePackages.kio
-    kdePackages.plasma-integration
+    nautilus
 
     # For tui filemanager
     yazi

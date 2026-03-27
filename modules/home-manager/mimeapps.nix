@@ -23,22 +23,23 @@
       "application/pdf" = "zen-beta.desktop";
 
       # Text and code
-      "text/plain"           = "code.desktop";
-      "text/x-python"        = "code.desktop";
-      "text/x-rust"          = "code.desktop";
-      "text/x-csrc"          = "code.desktop";
-      "text/x-script.sh"     = "code.desktop";
-      "application/json"     = "code.desktop";
-      "application/x-yaml"   = "code.desktop";
+      "text/plain"                = "code.desktop";
+      "text/x-python"             = "code.desktop";
+      "text/x-rust"               = "code.desktop";
+      "text/x-csrc"               = "code.desktop";
+      "application/x-shellscript" = "code.desktop";
+      "text/x-shellscript"        = "code.desktop";
+      "application/json"          = "code.desktop";
+      "application/x-yaml"        = "code.desktop";
 
       # Archives
-      "application/zip"      = "ark.desktop";
-      "application/x-tar"    = "ark.desktop";
-      "application/gzip"     = "ark.desktop";
+      "application/zip"             = "ark.desktop";
+      "application/x-tar"           = "ark.desktop";
+      "application/gzip"            = "ark.desktop";
       "application/x-7z-compressed" = "ark.desktop";
 
       # Browser
-      "text/html"            = "zen-beta.desktop";
+      "text/html"              = "zen-beta.desktop";
       "x-scheme-handler/http"  = "zen-beta.desktop";
       "x-scheme-handler/https" = "zen-beta.desktop";
 
@@ -48,7 +49,13 @@
     };
 
     associations.added = {
-      "text/x-rust" = "code.desktop";
+      "text/plain"       = "code.desktop";
+      "text/x-python"    = "code.desktop";
+      "text/x-rust"      = "code.desktop";
+      "text/x-csrc"      = "code.desktop";
+      "text/x-script.sh" = "code.desktop";
+      "application/json" = "code.desktop";
+      "application/x-yaml" = "code.desktop";
     };
   };
   xdg.configFile."mimeapps.list".force = true;
