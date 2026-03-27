@@ -39,10 +39,9 @@
     "Pictures/Wallpapers/.keep".text = "";
     "Documents/Projects/.keep".text = "";
     ".local/share/applications/.keep".text = "";
-    ".local/share/kservices5/vscode-open-folder.desktop".text = ''
+    ".local/share/kio/servicemenus/vscode-open-folder.desktop".text = ''
       [Desktop Entry]
       Type=Service
-      X-KDE-ServiceTypes=KonqPopupMenu/Plugin
       MimeType=inode/directory;
       Actions=openInVSCode
 
@@ -52,7 +51,7 @@
       Exec=code %f
     '';
   };
-
+  
   home.activation.rebuildKdeCache = lib.hm.dag.entryAfter ["writeBoundary"] ''
     ${pkgs.kdePackages.kservice}/bin/kbuildsycoca6 --noincremental 2>/dev/null || true
   '';

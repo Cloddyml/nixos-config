@@ -51,4 +51,5 @@
       "text/x-rust" = "code.desktop";
     };
   };
+  xdg.configFile."mimeapps.list".force = true;
 }
