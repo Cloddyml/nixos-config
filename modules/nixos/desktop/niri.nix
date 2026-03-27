@@ -7,7 +7,6 @@
     enable = true;
     xkb = {
       layout = "us,ru";
-      options = "";
     };
   };
 

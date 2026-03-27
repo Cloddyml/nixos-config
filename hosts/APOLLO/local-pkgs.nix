@@ -27,8 +27,6 @@
 
     grim
     slurp
-
-    networkmanagerapplet
     
     # For gui filemanager
     nautilus

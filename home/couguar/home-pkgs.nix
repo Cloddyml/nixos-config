@@ -8,8 +8,6 @@
     
     cmatrix
 
-    vesktop # Discord
-
     obsidian
 
     libreoffice-qt-fresh
