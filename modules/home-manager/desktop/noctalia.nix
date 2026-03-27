@@ -81,6 +81,11 @@
         normalUrgencyDuration  = 8;
         criticalUrgencyDuration = 15;
       };
+      hooks = {
+        enabled = true;
+        screenLock   = "brightnessctl --device='platform::kbd_backlight' set 0";
+        screenUnlock = "brightnessctl --device='platform::kbd_backlight' set 1";
+      };
     };
   };
 
