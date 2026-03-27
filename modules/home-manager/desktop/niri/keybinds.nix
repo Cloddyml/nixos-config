@@ -40,6 +40,11 @@
     Mod+Shift+4 { move-window-to-workspace 4; }
     Mod+Shift+5 { move-window-to-workspace 5; }
 
+    Mod+F       { maximize-column; }
+    Mod+Shift+F { fullscreen-window; }
+    Mod+Minus { set-column-width "-10%"; }
+    Mod+Equal { set-column-width "+10%"; }
+
     Mod+Left  { focus-column-left; }
     Mod+Right { focus-column-right; }
     Mod+Up    { focus-window-up; }
