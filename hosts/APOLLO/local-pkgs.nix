@@ -10,11 +10,17 @@
 
     curl
     git
+    kdePackages.ark
+    p7zip
+    unrar
+    zip 
     unzip
     neovim
     tree
     wl-clipboard
     fzf
+    fuzzel
+    imv
 
     upower
     brightnessctl

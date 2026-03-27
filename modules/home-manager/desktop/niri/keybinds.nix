@@ -17,6 +17,8 @@
     Mod+C { close-window; }
     Mod+Shift+E { quit; }
 
+    Mod+V { spawn-sh "cliphist list | fuzzel --dmenu --with-nth 2 | cliphist decode | wl-copy"; }
+
     Print     { screenshot; }
     Mod+Print { screenshot-window; }
 
