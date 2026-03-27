@@ -39,6 +39,18 @@
     "Pictures/Wallpapers/.keep".text = "";
     "Documents/Projects/.keep".text = "";
     ".local/share/applications/.keep".text = "";
+    ".local/share/kservices5/vscode-open-folder.desktop".text = ''
+      [Desktop Entry]
+      Type=Service
+      X-KDE-ServiceTypes=KonqPopupMenu/Plugin
+      MimeType=inode/directory;
+      Actions=openInVSCode
+
+      [Desktop Action openInVSCode]
+      Name=Open in VS Code
+      Icon=code
+      Exec=code %f
+    '';
   };
 
   programs.home-manager.enable = true;

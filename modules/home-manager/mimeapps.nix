@@ -20,7 +20,7 @@
       "image/webp"      = "imv.desktop";
 
       # PDF
-      "application/pdf" = "org.pwmt.zathura.desktop";
+      "application/pdf" = "zen-beta.desktop";
 
       # Text and code
       "text/plain"           = "code.desktop";
@@ -45,6 +45,10 @@
       # Torrents
       "application/x-bittorrent" = "org.qbittorrent.qBittorrent.desktop";
       "x-scheme-handler/magnet"  = "org.qbittorrent.qBittorrent.desktop";
+    };
+
+    associations.added = {
+      "text/x-rust" = "code.desktop";
     };
   };
 }
