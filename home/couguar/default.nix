@@ -1,4 +1,4 @@
-{ username, homeStateVersion, ... }:
+{ username, homeStateVersion, lib, pkgs, ... }:
 
 {
   imports = [
@@ -52,6 +52,10 @@
       Exec=code %f
     '';
   };
+
+  home.activation.rebuildKdeCache = lib.hm.dag.entryAfter ["writeBoundary"] ''
+    ${pkgs.kdePackages.kservice}/bin/kbuildsycoca6 --noincremental 2>/dev/null || true
+  '';
 
   programs.home-manager.enable = true;
 }
